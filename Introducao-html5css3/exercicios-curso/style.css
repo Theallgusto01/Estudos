@@ -1,0 +1,67 @@
+body {
+    background: #ccc;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+
+}
+#titulo, .iniartigo, .cabecalho {
+    
+    color: rgb(20, 20, 24);
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iniartigo {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+
+.artigo { 
+    background: #fff;
+    padding: 15px;
+    border: 3px solid #000;
+    margin: 10px;
+}
+
+.conteudo {
+    margin: 5px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000;
+}
+.foto {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+       
+}
+   
+a {
+    text-decoration: line-through;
+    color: #505050;
+}
+
+.lista li a {
+    list-style-type: disc;
+    padding-left: 15px;
+    padding: 0;
+    text-decoration: none;
+}
+
+.imagem_texto {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+
+}

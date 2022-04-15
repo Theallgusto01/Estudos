@@ -1,0 +1,111 @@
+CSS - Cria regra de estilos
+id = só uma vez na página
+Classes -> Adiciona uma tag a um elemento do HTML para fazer edição no css ex: <h1 class:Titulo>
+--Box model
+    margin
+    ----------------
+        border
+        --------------
+            padding
+            ------------
+                content
+                -------------
+
+padding -> espaçamento entre borda e conteudo
+border -> adiciona um contorno a borda, (borda a moldura)
+margin -> adiciona espaçamento entre elementos
+
+===================================================================================
+
+editando Classes -> .classe {
+
+                            padding: 10px 5px -> O primeiro valor se refere ao espaçamento 
+                            superior e inferior, o segundo se refere aos espaçamentos laterais
+
+                                }
+                                 
+                                 
+-> .classe {
+
+                            padding: 15px 10px 5px -> topo, direita, inferior, esquerda - respectiviamente;
+
+                                }
+ou podemos fazer com valores especificos
+
+.classe {
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+
+--> Backgroung
+.classe {
+    backgroung-color: green;
+    backgroung-image: url("bg.png");
+    backgroung-position: top;
+}
+podemos usar cor com nome em ingles ou codigo hexadecimal
+
+-->Border
+largura - pixels, centimetros, milimetros...
+cor: blue, #0000ff...
+estilo: sólida, pontilhada, tracejada....
+
+.classe {
+    border: 3px solid blue;
+    border-top: 2px dotted green;
+    border-right: 4px dashed pink;
+}
+
+border- top,right,bottom,left - width, color, stile
+
+- Border-radius: 10px
+- Border-radius: 50% tranforma num circulo
+- Border-radius: 10% 20%
+- Border-radius: 10% 20% 15% 22%
+
+=======================================================
+Estilizando Textos
+
+font-family: Verdana;
+font-family: Verdana, Arial;
+font-size: 30px: - Tamanho do Texto
+font-style: normal;
+font-style: italic;
+font-weight: normal;
+font-weight: bold;
+text-tranform: uppercase, lowercase, captalize
+text-decoration: underline, overline, line-trought
+
+========================================================
+Estilizando Listas
+
+list-style-type
+ul {
+    list-style-type: square;
+}
+
+ol {
+
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style-type: "\1F44D";
+}
+
+ul {
+    list-style-image: ""url"" ;
+}
+========================================
+Dimensão e alinhamento
+
+width
+Height
+Max-width
+Max-Height
+
+margin
+
+text align

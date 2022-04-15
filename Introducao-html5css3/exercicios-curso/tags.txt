@@ -1,0 +1,30 @@
+Lista de Tags que Aprendi
+
+- <h1>...<h6> Titulos, para seções 
+- <header> Cabeçalho
+- <section> Seção genérica
+- <footer> Rodapé
+- <article> Artigo, conposição independente de um documento
+- <p> Parágrafo, pode ser usado não só para texto mas para imagens e videos
+- <a> Link, para adicionar urls e lincar uma âncora, também pode apontar para email e telefones(mailto, tel) 
+    -<a target="_blank"></a> - Indica que i link deve ser aberto num nova aba
+    - <a href="mailto:theagoaugusto16@gmail.com">Email</a> link para email
+- <img> Adiciona uma imagem
+    -<img src="imag/avatar.jpg"> caminho até a imagem
+    -<img alt="Foto do avatar"> texto alternativo caso a imagem apresente um erro ou não carrega
+- <ul> lista onde a ordem dos itens não é importante
+- <ol> lista numerada
+-
+-
+- 
+-
+-
+-
+- 
+-
+-
+-
+- 
+-
+-
+-
