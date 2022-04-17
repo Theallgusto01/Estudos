@@ -10,13 +10,14 @@
     .flex-container{
         display: flex;
         border: 1px solid white;
-        max-width: 300px;
+        width: 300px;
 
     }
     .flex-item{
         background-color: blueviolet;
         margin: 10px;
         width: 50px;
+        height: 30px;
         font-size: 20px;
         text-align: center;
     }
@@ -31,6 +32,12 @@
     }
     .rr-wr{
         flex-flow: row-reverse wrap-reverse;
+    }
+    .rr-nw{
+        flex-flow: row-reverse nowrap;
+    }
+    .rr-wrap{
+        flex-flow: row-reverse wrap;
     }
 
 </style>
@@ -73,6 +80,30 @@
         <div class="flex-item">6</div>
         <div class="flex-item">7</div>
     </div>
-    
+    <h1>row-reverse nowrap</h1>
+    <div class="flex-container rr-nw">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+        <div class="flex-item">7</div>
+        <div class="flex-item">8</div>
+        <div class="flex-item">9</div>
+       
+    </div>
+    <h1>row-reverse wrap</h1>
+    <div class="flex-container rr-wrap">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+        <div class="flex-item">7</div>
+        <div class="flex-item">8</div>
+        <div class="flex-item">9</div>
+        
 </body>
 </html>
