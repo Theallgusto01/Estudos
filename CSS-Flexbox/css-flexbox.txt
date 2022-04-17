@@ -34,8 +34,8 @@ Flex container - Tag que envolve os itens,  nela iremos aplicar display:flex
     - nowrap(padrão)- Não permite quebra de linha
     - wrap - Permite a quebra de linha assim que um dos flex itens não puder mais ser compactado
     - wrap-reverse - mesma logica do wrap, mas ao quebrar linha o novo item vai para cima
-
-
+- Flex-flow
+    - Atalho para flex-direction e flex-wrap
 
 
 
