@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .flex-container{
+        max-width: 400px;
+        display: flex;
+        border: 1px solid white;
+        flex-wrap: wrap;
+    }
+    .flex-item{
+        background-color: lightseagreen;
+        margin: 5px;
+        text-align: center;
+    }
+    .flex-start{
+        justify-content: flex-start;
+    }
+    .flex-end{
+        justify-content: flex-end;
+    }
+    .center{
+        justify-content: center;
+    }
+    .space-between{
+        justify-content: space-between;
+    }
+    .space-around{
+        justify-content: space-around;
+    }
+    .column{
+        flex-direction: column;
+        min-height: 200px;
+    }
+</style>
+<body>
+    <h1>row</h1>
+    <p>flex-start</p>
+    <div class="flex-container flex-start">
+    <div class="flex-item">1</div>
+    <div class="flex-item">item2</div>
+    <div class="flex-item">outro item</div>
+    <div class="flex-item">mais um item</div>
+    <div class="flex-item">muitos itens</div>
+    <div class="flex-item">quantos itens</div>
+    </div>
+    <p>flex-end</p>
+    <div class="flex-container flex-end">
+        <div class="flex-item">1</div>
+        <div class="flex-item">item2</div>
+        <div class="flex-item">outro item</div>
+        <div class="flex-item">mais um item</div>
+        <div class="flex-item">muitos itens</div>
+        <div class="flex-item">quantos itens</div>
+        </div>
+    <p>center</p>
+    <div class="flex-container center">
+        <div class="flex-item">1</div>
+        <div class="flex-item">item2</div>
+        <div class="flex-item">outro item</div>
+        <div class="flex-item">mais um item</div>
+        <div class="flex-item">muitos itens</div>
+        <div class="flex-item">quantos itens</div>
+        </div>
+    <p>space-between</p>
+    <div class="flex-container space-between">
+        <div class="flex-item">1</div>
+        <div class="flex-item">item2</div>
+        <div class="flex-item">outro item</div>
+        <div class="flex-item">mais um item</div>
+        <div class="flex-item">muitos itens</div>
+        <div class="flex-item">quantos itens</div>
+        </div>
+    <p>space-around</p>
+    <div class="flex-container space-around">
+        <div class="flex-item">1</div>
+        <div class="flex-item">item2</div>
+        <div class="flex-item">outro item</div>
+        <div class="flex-item">mais um item</div>
+        <div class="flex-item">muitos itens</div>
+        <div class="flex-item">quantos itens</div>
+        </div>
+    <h1>column</h1>
+
+    <p>flex-start</p>
+
+    <div class="flex-container flex-start column">
+        <div class="flex-item">1</div>
+        <div class="flex-item">item2</div>
+        <div class="flex-item">outro item</div>
+        <div class="flex-item">mais um item</div>
+        <div class="flex-item">muitos itens</div>
+        <div class="flex-item">quantos itens</div>
+        </div>
+
+    <p>flex-end</p>
+
+    <div class="flex-container flex-end column">
+        <div class="flex-item">1</div>
+        <div class="flex-item">item2</div>
+        <div class="flex-item">outro item</div>
+        <div class="flex-item">mais um item</div>
+        <div class="flex-item">muitos itens</div>
+        <div class="flex-item">quantos itens</div>
+        </div>
+
+    <p>center</p>
+
+    <div class="flex-container center column">
+        <div class="flex-item">1</div>
+        <div class="flex-item">item2</div>
+        <div class="flex-item">outro item</div>
+        <div class="flex-item">mais um item</div>
+        <div class="flex-item">muitos itens</div>
+        <div class="flex-item">quantos itens</div>
+        </div>
+    
+    <p>space-between</p>
+
+    <div class="flex-container space-between column">
+        <div class="flex-item">1</div>
+        <div class="flex-item">item2</div>
+        <div class="flex-item">outro item</div>
+        <div class="flex-item">mais um item</div>
+        <div class="flex-item">muitos itens</div>
+        <div class="flex-item">quantos itens</div>
+        </div>
+
+        <p>space-around</p>
+
+        <div class="flex-container space-around column">
+            <div class="flex-item">1</div>
+            <div class="flex-item">item2</div>
+            <div class="flex-item">outro item</div>
+            <div class="flex-item">mais um item</div>
+            <div class="flex-item">muitos itens</div>
+            <div class="flex-item">quantos itens</div>
+            </div>
+</body>
+</html>

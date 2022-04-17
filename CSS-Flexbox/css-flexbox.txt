@@ -36,7 +36,13 @@ Flex container - Tag que envolve os itens,  nela iremos aplicar display:flex
     - wrap-reverse - mesma logica do wrap, mas ao quebrar linha o novo item vai para cima
 - Flex-flow
     - Atalho para flex-direction e flex-wrap
-
-
+-Justify Content - Alinhar os itens dentro do container, distribuição de espaço ente elementos
+    - caso os itens estejam ocupando 100% do container, não se aplicar
+    --> Variações
+        - flex-start - alinhamento no inicio do Container
+        - flex-end - alinha no final do Container
+        - center - todos os elementos ao centro do container
+        - space-between - espaço igual entre elementos
+        - space-around - espaçamento do meio duas vezes maior que o espaçamento inicial e final
 
 
