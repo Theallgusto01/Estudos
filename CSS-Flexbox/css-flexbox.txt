@@ -1,0 +1,39 @@
+CSS FLEXBOX
+    -Sem nessecidade a definição de Valores Físicos
+-INtrodução ao FLEXBOX
+-Fundamentos do FLEXBOX
+-Projeto integrador
+
+Flexbox - Modelo de layout inidimensional
+Flex container - Tag que envolve os itens,  nela iremos aplicar display:flex
+ Propriedades:
+ - display
+ - flex-direction
+ - flex-wrap
+ - flex-flow
+ - justify-contont
+ - align-itens
+ - align-content
+
+ flex item - elementos filhos diretos do container. Também podem se tornar Flex Container.
+    propriedades
+    - flex-grow
+    - flex-basis
+    - flex-shrink
+    - flex
+    - order
+    - align-self
+
+- Display Flex - Torna os folhos da tag flex items
+- Flex Direction - Propriedade que estabelece o eixo principal
+    - row(padrão)
+    - reverse
+    - column
+    - column-reverse
+    
+
+
+
+
+
+
