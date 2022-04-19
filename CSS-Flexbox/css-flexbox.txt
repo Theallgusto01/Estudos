@@ -44,5 +44,22 @@ Flex container - Tag que envolve os itens,  nela iremos aplicar display:flex
         - center - todos os elementos ao centro do container
         - space-between - espaço igual entre elementos
         - space-around - espaçamento do meio duas vezes maior que o espaçamento inicial e final
-
-
+- Align itens - tratar alinhamento dos flex itens de acordo com o eixo do container
+    - alinhamento diferente quando os itens estão es colunas ou linhas
+    - permite alinhamento central no eixo vertical
+    --> Tipos de alinhamento
+        - center - alinhamento dos itens ao centro
+        - stretch - padrão, flex itens crescem igualmente
+        - flex-start - no inicio
+        - flex-end - no final
+        - baseline - de acordo com a linha base tipográfica dos itens 
+- Align content - tratamento do eixo vertical
+    - Quebra de linha - flex-wrap
+    - altura do container maior que a soma das linhas dos itens
+    ->Tipos
+        - center
+        - stretch
+        - flex-start
+        - flex-end
+        - space-between
+        - space-around

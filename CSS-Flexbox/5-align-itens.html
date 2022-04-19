@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        border: 1px solid white;
+        width: 500px;
+        min-height: 60px;
+        
+
+    }
+    .item{
+        background-color: blueviolet;
+        margin: 5px;
+        text-align: center;
+        flex: 1;
+
+    }
+    .center{
+        align-items: center;
+    }
+    .stretch{
+        align-items: stretch;
+    }
+    .flexstart{
+        align-items: flex-start;
+    }
+    .flexend{
+        align-items: flex-end;
+    }
+    .baseline{
+        align-items: baseline;
+    }
+    .column{
+        flex-direction: column;
+    }
+    .central{
+        justify-content: center;
+        height: 400px;
+        
+        
+    }
+    .central .item{
+        flex: 0;
+        padding: 20px;
+    }
+</style>
+<body>
+    <p>center</p>
+    <section class="container center">
+        <div class="item">Lorem ipisicing elit.</div>
+        <div class="item">A orm eos labore ipsum</div>
+        <div class="item">iustur ipsum reerit asperiores.</div>   
+    </section>
+    <p>stretch</p>
+    <section class="container stretch">
+        <div class="item">elit.</div>
+        <div class="item">A qeos labore ipsum</div>
+        <div class="item">iustsum rependerit asperiores.</div>
+    </section>
+    <p>flex-start</p>
+    <section class="container flexstart">
+        <div class="item">Lorelit.</div>
+        <div class="item">A queos labore ipsum</div>
+        <div class="item">iusto netur ipsum reprehenderit asperiores.</div>
+    </section>
+    <p>flex-end</p>
+    <section class="container flexend">
+        <div class="item">Lorem.</div>
+        <div class="item">A quopti aliquam eos labore ipsum</div>
+        <div class="item">iusto cumrprehenderit asperiores.</div>
+    </section> 
+    <p>baseline</p>
+    <section class="container baseline">
+        <div class="item">Lorem ipsum, dconspisicing elit.</div>
+        <div class="item">A quod, nequcoos labore ipsum</div>
+        <div class="item">iusto cum querit asperiores.</div>
+    </section>
+
+
+    <h2>Column</h2>
+    <p>center</p>
+    <section class="container center column">
+        <div class="item">Lorem ipisicing elit.</div>
+        <div class="item">A orm eos labore ipsum</div>
+        <div class="item">iustur ipsum reerit asperiores.</div>   
+    </section>
+    <p>stretch</p>
+    <section class="container stretch column">
+        <div class="item">elit.</div>
+        <div class="item">A qeos labore ipsum</div>
+        <div class="item">iustsum rependerit asperiores.</div>
+    </section>
+    <p>flex-start</p>
+    <section class="container flexstart column">
+        <div class="item">Lorelit.</div>
+        <div class="item">A queos labore ipsum</div>
+        <div class="item">iusto netur ipsum reprehenderit asperiores.</div>
+    </section>
+    <p>flex-end</p>
+    <section class="container flexend column">
+        <div class="item">Lorem.</div>
+        <div class="item"><>A quopti aliquam eos labore ipsum</div>
+        <div class="item">iusto cumrprehenderit asperiores.</div>
+    </section> 
+    <p>baseline</p>
+    <section class="container baseline column">
+        <div class="item">Lorem ipsum,<br> dconspisicing elit.</div>
+        <div class="item">A quod, nequcoos labore ipsum</div>
+        <div class="item">iusto cum querit asperiores.</div>
+    </section> 
+    <p>alinhamento central a tela</p>  
+    <section class="container center central">
+        <div class="item">item 1 qwgfasgasrgfasdfawrgfasdfargsgasvasvagasdg asdf asdf sdfasfd asdf saf</div>
+    </section>
+</body>
+</html>
