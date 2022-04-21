@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Basis</title>
+</head>
+<style>
+    .flex-container{
+        max-width: 500px;
+        border: 1px solid white;
+        display: flex;
+    }
+    .flex-item{
+        background-color: blueviolet;
+        margin: 5px;
+        text-align: center;
+    }
+    .bauto{
+        flex-basis: auto;
+    }
+    .bzero{
+        flex-basis: 0;
+    }
+    .w100{
+        flex-basis: 100px;
+    }
+    .fg-1{
+        flex-grow: 1;
+    }
+    .fg-2{
+        flex-grow: 2;
+    }
+    .fg-0{
+        flex-grow: 0;
+    }
+</style>
+<body>
+    <p>basis auto</p>
+    <section class="flex-container">
+        <div class="flex-item bauto fg-1">AAA</div>
+        <div class="flex-item bauto fg-1">BB</div>
+        <div class="flex-item bauto fg-1">C</div>
+        <div class="flex-item bauto fg-2">EDDSA</div>
+    </section>
+    <p>basis 0</p>
+    <section class="flex-container">
+        <div class="flex-item bzero fg-1">AAAA</div>
+        <div class="flex-item bzero fg-1">BBEEE</div>
+        <div class="flex-item bzero fg-1">CE</div>
+        <div class="flex-item bzero fg-1">EDA</div>
+    </section>
+    <p>basis + width</p>
+    <section class="flex-container">
+        <div class="flex-item w100 fg-2">AAA</div>
+        <div class="flex-item w100 fg-2">BB</div>
+        <div class="flex-item w100 fg-2">C</div>
+        <div class="flex-item w100 fg-2">EDDSA</div>
+    </section>
+</body>
+</html>

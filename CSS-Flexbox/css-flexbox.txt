@@ -63,3 +63,28 @@ Flex container - Tag que envolve os itens,  nela iremos aplicar display:flex
         - flex-end
         - space-between
         - space-around
+
+=========================================================================
+Fundamentos Parte II - Flex-itens
+
+- Flex-grow - Proporcionalidade de crescimento dos itens, respeitando o tamanho.
+- Flex-basis - Estabelece o tamanho inicial do item antes da distribuição do espaço restante dele, usando de base o conteudo intarno disposto
+    -auto
+    -px, %, em...
+    -0(zero)
+- Flex-shrink -Capacidade de redução ou compressão do tamanho de um item;
+
+==========================================================================
+
+-> Flex --> Atalho para as propriedades grow, shrink e basis;
+            -flex: 1 0 auto; -- grow - 1; shrink 0; basis auto/
+
+--Order - Dita a ordem que os elementos vão aparecer 
+
+--Align-self Alinha itens individualmente
+    - auto - padrão
+    - flex-start - inicio do container
+    - flex-end - no fim do container
+    - center - relativo ao centro
+    - stretch - ocupa todo o espaço relativo
+    - baseline - utiliza a linha base da tipografia
