@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background: rgb(241, 241, 241);
+}
+.instagram{
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    
+}
+.lateral{
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.instagram-logo{
+    margin: 40px;
+   
+}
+.imagem-phone{
+    display: block;
+}
+.imagem-phone img{
+    height: 800px;
+}
+
+.group .perfil{
+    border-radius: 50%;
+    height: 100px;
+    margin-bottom: 30px;
+    
+}
+.botoes{
+    padding: 3px;
+    margin-bottom: 5px;
+    
+    
+    
+}
+.insta-login{
+    background: hwb(212 9% 23%);
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+.insta-logout{
+    padding: 5px;
+    text-decoration: none;
+    color: hwb(212 9% 23%);
+}
+.group{
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(245, 243, 243);
+    margin: 5px;
+    padding: 6px;
+    width: 400px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.link{
+    color: hwb(212 9% 23%);
+    text-decoration: none;
+}
+.elemento{
+    padding: 3px;
+}
+
+.group-2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+.icons{
+    flex-direction: row;
+    margin-top: 15px
+}
+.ico{
+    width: 200px;
+}
+
