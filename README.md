@@ -18,15 +18,12 @@
 	Status: 🚧 In Construction
 </h4>
 
-<p align="center">
-	<a href="#tech-stack">Tech Stack</a> •
-	<a href="#contact">Contact</a> 
-</p>
+
 
 ## Tech Stack
 <img src="https://img.shields.io/badge/Css3-05122A?style=flat&logo=css3" alt="css3 Badge" height="25">&nbsp;
 <img src="https://img.shields.io/badge/Html5-05122A?style=flat&logo=html5" alt="html5 Badge" height="25">&nbsp;
-# Conteúdo
+## Conteúdo
 - Git e GitHub
 - Primeiros passos do desenvolvimento web
 - Introdução ao HTML5 e CSS3
@@ -39,7 +36,7 @@
 
 Made with ❤️ by [Thiago Augusto](https://github.com/Theallgusto01), enter in contact!
 
-<a href="mailto:augusto.dev01" target="_blank"><img src="https://img.shields.io/badge/augusto.dev01-D14836?style=flat&logo=gmail&logoColor=white" alt="Email Badge" height="25"></a>&nbsp;
+<a href="mailto:augusto.dev01@gmail.com" target="_blank"><img src="https://img.shields.io/badge/augusto.dev01@gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email Badge" height="25"></a>&nbsp;
 <a href="https://www.linkedin.com/in/theallgusto" target="_blank"><img src="https://img.shields.io/badge/theallgusto-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;
 
 <br clear="left"/>
